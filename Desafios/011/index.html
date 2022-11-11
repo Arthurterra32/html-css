@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        
+        body {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .fundo-externo {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .fundo {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+        }
+
+        .frente {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo-externo">
+        <div class="fundo">
+            <img src="imagens/espaco.jpg" alt="imagem do espaco" class="fundo">
+        </div>
+    </div>
+    <div class="frente">
+        <img src="imagens/astronauta.png" alt="astronauta">
+    </div>
+</body>
+</html>
